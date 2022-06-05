@@ -40,10 +40,10 @@ const Login = (props) => {
   };
 
   return (
-    <main className='flex-row justify-center mb-4'>
-      <div className='col-12 col-md-6'>
-        <div className='card'>
-          <h4 className='card-header'>Login</h4>
+    <main className='container center-align'>
+      <div className='row'>
+        <div className=''>
+          <h4 className=''>Login</h4>
           <div className='card-body'>
             <form onSubmit={handleFormSubmit}>
               <input
@@ -64,7 +64,7 @@ const Login = (props) => {
                 value={formState.password}
                 onChange={handleChange}
               />
-              <button variant="secondary" type='submit'>
+              <button className="btn d-block w-100" type='submit'>
 
                 Submit
               </button>

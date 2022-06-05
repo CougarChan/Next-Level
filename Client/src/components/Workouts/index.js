@@ -7,7 +7,7 @@ const Workouts = ({exercises})=> {
     }
 
     return (
-    <div>
+    <div className=''>
         <h2>WORKOUT LOG</h2>
 
         <p>Congratulations on your progress. You have Points!</p>

@@ -34,22 +34,22 @@ const WorkoutForm = ({ userId }) => {
     return (
         <div className="container">
             <h1>Add a Workout</h1>
-            <div className="row">
+            {/* <div className="row">
                 <div className="col s12">
-                <div className="row">
+                <div className="row"> */}
 
                 
-                <div className= "input-field col s6">
+                <div className= "">
                 <label>Exercise Type: </label>
                 <input type="text" className="validate" placeholder="Enter Exercise Type" value={workType} onChange={(e) => setWorkType(e.target.value)}/>
                 </div>
 
-                <div className= "input-field col s6">
+                <div className= "">
                 <label> Sets: </label>
                 <input type="number" className="validate" placeholder="Enter the number of sets" value={sets} onChange={(e) => setSets(e.target.value)}/>
                 </div>
 
-                <div className= "input-field col s6">
+                <div className= "">
 
                 <label> Reps: </label>
                 <input type="number" className="validate" placeholder="Enter the number of reps " value={reps} onChange={(e) => setReps(e.target.value)}/>
@@ -58,9 +58,9 @@ const WorkoutForm = ({ userId }) => {
 
                 <button className="waves-effect waves-light btn" onClick={() => handleButtonClick()}>Add Workout</button>
                 </div>
-                </div>
-            </div>
-        </div>
+               // </div>
+           // </div>
+        //</div>
     )
 
 }

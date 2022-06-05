@@ -14,7 +14,7 @@ const Header = () => {
   return (
 
     <nav>
-      <div className='nav-wrapper #00bfa5 teal accent-4
+      <div className='nav-wrapper 
 '>
         <Link to="/" className='brand-logo right'>
           <h5>NEXT-LEVEL</h5>
@@ -23,12 +23,12 @@ const Header = () => {
 
           <li className=''>
             <Link to="/login" >
-              <p>Login</p>
+              <p className="left-align">Login</p>
             </Link>
           </li>
           <li className=''>
             <Link to="/signup" >
-              <p>Sign Up</p>
+              <p className="left-align">Sign Up</p>
             </Link>
           </li>
           <li className=''>

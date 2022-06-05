@@ -3,7 +3,7 @@ import React from 'react'
 const Workouts = ({exercises})=> {
 
     if (!exercises){
-        return <p> What are you waiting for, let's get started!</p>
+        return <h5 className='center'> What are you waiting for, let's get started!</h5>
     }
 
     return (

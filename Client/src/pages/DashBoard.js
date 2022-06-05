@@ -25,7 +25,7 @@ const Dashboard = () => {
                 {/* <p>Congratulations on your progress. You have X Points!</p> */}
             </div>
             <div>
-                <p>Be sure to log your progress.</p>
+                <h5 className='center'>Be sure to log your progress.</h5>
             </div>
             {loading ? (
                 <div>Loading...</div>

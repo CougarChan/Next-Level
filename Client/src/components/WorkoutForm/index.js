@@ -33,7 +33,7 @@ const WorkoutForm = ({ userId }) => {
 
     return (
         <div className="container">
-            <h1>Add a Workout</h1>
+            <h4>Add a Workout</h4>
             {/* <div className="row">
                 <div className="col s12">
                 <div className="row"> */}

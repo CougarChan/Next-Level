@@ -39,4 +39,4 @@ mutation Mutation($userId: ID!, $exerciseTypes: String!, $reps: Int!, $sets: Int
     reps
     sets
   }
-}`
+}`;

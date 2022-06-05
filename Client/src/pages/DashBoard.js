@@ -21,11 +21,12 @@ const Dashboard = () => {
 
     return (
         <main>
-             <img></img>
+             <img src="" alt="" ></img>
             <div>
                 {/* <p>Congratulations on your progress. You have X Points!</p> */}
             </div>
             <div>
+
                 <h5 className='center'>Be sure to log your progress.</h5>
             </div>
             {loading ? (

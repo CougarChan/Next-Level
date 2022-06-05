@@ -10,3 +10,8 @@
   list-style-type: none;
 
 }
+.footer{
+position: absolute;
+bottom: 100px;
+
+}

@@ -21,3 +21,9 @@
 .main {
   flex: 1 0 auto;
 }
+
+.footer{
+ position: absolute;
+ bottom: 100px;
+
+}

@@ -21,6 +21,7 @@ const Dashboard = () => {
 
     return (
         <main>
+             <img></img>
             <div>
                 {/* <p>Congratulations on your progress. You have X Points!</p> */}
             </div>

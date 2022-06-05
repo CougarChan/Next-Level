@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="page-footer black">
+    <footer className=" page-footer black">
 
       <div className="container center-align ">&copy;2022 By the lovely Team 7</div>
       
